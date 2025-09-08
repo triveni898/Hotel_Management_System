@@ -4,80 +4,80 @@
 This is a Simple Hotel Management System implemented in Java. It provides functionalities for managing rooms, customers, bookings, food orders, checkout, billing, and admin operations. The system is designed to be user-friendly and efficient for small hotel operations.
 
 **Features**
-1. Room Management
+**1. Room Management**
 
-View all rooms.
+     View all rooms.
 
-View available rooms.
+     View available rooms.
 
-View room details including type, capacity, price, and amenities.
+     View room details including type, capacity, price, and amenities.
 
-2. Customer Management
+**2. Customer Management**
 
-Add new customers with name, contact number, and gender.
+     Add new customers with name, contact number, and gender.
 
-View all customers.
+     View all customers.
 
-Search customers by name or contact number.
+     Search customers by name or contact number.
 
-3. Booking Management
+**3. Booking Management**
 
-Create new bookings with check-in and check-out dates.
+     Create new bookings with check-in and check-out dates.
 
-View active bookings.
+     View active bookings.
 
-Check-in and cancel bookings.
+     Check-in and cancel bookings.
 
-Automatically update room and customer status.
+     Automatically update room and customer status.
 
-4. Food Ordering
+**4. Food Ordering**
 
-View food menu.
+    View food menu.
 
-Place food orders (integration ready for future updates).
+    Place food orders (integration ready for future updates).
 
-View customer orders.
+    View customer orders.
 
-5. Checkout & Billing
+**5. Checkout & Billing**
 
-Apply discount codes (WELCOME10, SUMMER20, LOYALTY15).
+     Apply discount codes (WELCOME10, SUMMER20, LOYALTY15).
+ 
+     Automatically calculate total bill including room charges, food charges, discounts, and tax.
 
-Automatically calculate total bill including room charges, food charges, discounts, and tax.
+     Generate a detailed bill for each booking.
 
-Generate a detailed bill for each booking.
+**6. Search Operations**
 
-6. Search Operations
+      Search room by customer (name/contact).
 
-Search room by customer (name/contact).
+      Search customer by room.
 
-Search customer by room.
+**7. Admin Dashboard**
 
-7. Admin Dashboard
+      View revenue statistics and tax rate.
 
-View revenue statistics and tax rate.
+      View room statistics (total, booked, available).
 
-View room statistics (total, booked, available).
+      View all bookings.
 
-View all bookings.
+      Change tax rate.
 
-Change tax rate.
-
-Manage customers (add, remove, view, search).
+      Manage customers (add, remove, view, search).
 
 **Installation**
 
-Clone the repository:
+**Clone the repository:**
 
 git clone <your-repo-url>
 cd <repository-folder>
 
 
-Compile the Java files:
+**Compile the Java files:**
 
 javac *.java
 
 
-Run the application:
+**Run the application:**
 
 java SimpleHotelSystem
 
